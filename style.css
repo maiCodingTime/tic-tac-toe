@@ -56,3 +56,17 @@ h2{
 .cell:active{
     background-color: hsl(0, 1%, 82%);
 }
+.colorX{
+    background-color: hsl(197, 71%, 56%);
+    pointer-events: none;                       /* Disables hover once cell is chosen */
+}
+.colorO{
+    background-color: hsl(298, 73%, 55%);
+    pointer-events: none;
+}
+.winColor{
+    color: hsl(125, 73%, 55%);
+}
+.drawColor{
+    color: gold;
+}
