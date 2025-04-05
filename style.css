@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 18%), hsl(0, 0%, 55%));
+    font-family: "Permanent Marker", cursive;
+}
+h1{
+    font-size: 5em;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+}
+#restartBtn{
+    font-size: 1.3rem; 
+    font-weight: bold;
+    background-color: hsl(0, 0%, 38%);
+    color: white;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+#restartBtn:hover{
+    background-color: hsl(0, 0%, 54%);
+}
+#restartBtn:active{
+    background-color: hsl(0, 1%, 82%);
+}
+#container{
+    color: white;
+    text-align: center;
+    height: 93.2vh;
+}
+#cellContainer{
+    font-family: "Permanent Marker", cursive;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+.cell{
+    width: 140px;
+    height: 140px;
+    border: 6px solid;
+    box-shadow: 0 0 0 6px;
+    line-height: 140px;
+    font-size: 5.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cell:hover{
+    background-color: hsl(0, 0%, 54%);
+}
+.cell:active{
+    background-color: hsl(0, 1%, 82%);
+}
